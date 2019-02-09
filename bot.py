@@ -35,5 +35,5 @@ async def on_message(message):
                                                                      "Outlook not so good",
                                                                      "Very doubtful"]))
 
-client.run("NTQzNTYyNzU0MjIxNDA4MjU3.Dz-35A.lUkwQbrbyg0nhm6j75aGMWjIGhA")
+client.run("NTQzNTYyNzU0MjIxNDA4MjU3.Dz-92g.dHPsUXSlkIPwZ8JWHrX01ULgmog")
 client.login(process.env.BOT_TOKEN);
