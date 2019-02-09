@@ -14,7 +14,7 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
-    elif message.content.startswith("/gather"):
+    elif message.content.startswith("_gather"):
         await client.send_message(message.channel, random.choice([ "Oh wow, what a cute snail! It's not worth anything, but I'm sure... someone wants it...?",
                                                                      "",
                                                                      "Without a doubt",
